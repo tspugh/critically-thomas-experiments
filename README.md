@@ -19,7 +19,7 @@ it is included as a visual record, not as a benchmark.
 The project uses Python 3.13 and [uv](https://docs.astral.sh/uv/):
 
 ```bash
-uv sync
+uv sync --locked
 uv run critically-thomas-nca
 ```
 
